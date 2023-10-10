@@ -2,7 +2,7 @@ package ru.gb.api.homework1;
 
 public class Coffee extends HotDrink{
     private int temperature;
-    private String name;
+    private final String name;
 
     public Coffee(String name, int temperature,double volume, float price) {
        super(volume,price);
