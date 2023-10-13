@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         HotDrink coffee1 = new Coffee("Cappuccino",71,250,160);
         HotDrink coffee2 = new Coffee("Latte",71,250,180);
-        System.out.println(coffee1);
+  
         HotDrinksVendingMachine machine1 = new HotDrinksVendingMachine();
         HotDrinksVendingMachine machine2 = new HotDrinksVendingMachine();
         machine1.addHotDrink(coffee1);
