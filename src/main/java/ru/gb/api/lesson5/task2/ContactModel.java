@@ -1,4 +1,4 @@
-package ru.gb.api.lesson3.task2;
+package ru.gb.api.lesson5.task2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,6 +11,7 @@ public class ContactModel {
     String surname;
     String patronymic;
     String phoneNumber;
+    boolean f = true;
 
     public ContactModel(String name, String surname, String patronymic, String phoneNumber) {
         String[] contactInfo = {this.name = name, this.patronymic = patronymic, this.phoneNumber = phoneNumber};
@@ -20,6 +21,11 @@ public class ContactModel {
 
     public ContactModel() {
     }
+    public  void printContacts(Map<Integer,String> map,<T>){
+        for (Map.Entry<Integer,String> entry: map.entrySet()
+        ) {
 
+        }
+    }
 
 }
