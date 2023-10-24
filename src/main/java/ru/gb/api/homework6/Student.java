@@ -1,4 +1,4 @@
-package ru.gb.api.homeWork6;
+package ru.gb.api.homework6;
 
 class Student implements User {
     private String name;
